@@ -1,0 +1,62 @@
+Player 1
+[Mana=20]
+
+Player 0
+You [Mana=0,Gold=0]
+
+Player 0 Tower 1
+Defense Tower [Damage=23]
+
+Player 0 Tower 2
+Ancient Tower [Damage=39]
+
+Player 0 Tower 3
+Defense Tower [Damage=28]
+
+Player 1 Tower 1
+Defense Tower [Damage=33]
+
+Player 1 Tower 2
+Defense Tower [Damage=39]
+
+Player 1 Tower 3
+Defense Tower [Damage=36]
+
+Player 1 Hand
+Mazer Beam X-179
+Kineto-Zap Harmor Type XLII
+Sproink Springers Mk.23
+Refresher Orb
+Blink Dagger
+Phase Boots
+
+Player 1 Improvements 2
+Temple of War
+
+Player 0 Combat 1
+Melee Creep
+Empty
+Legion Commander [Damage=3]
+
+Player 0 Combat 2
+Melee Creep
+Phantom Assassin
+Sorla Khan
+Sven
+Empty
+
+Player 0 Combat 3
+Melee Creep
+Empty
+Debbi the Cunning [Damage=2]
+
+Player 1 Combat 1
+Melee Creep
+
+Player 1 Combat 2
+Melee Creep
+Empty
+Mazzie
+
+Player 1 Combat 3
+Melee Creep

@@ -1,0 +1,649 @@
+<option>Empty</option>
+<option>Meepo</option>
+<option>Poof</option>
+<option>United We Fall</option>
+<option>Divided We Stand</option>
+<option>Luna</option>
+<option>Lucent Beam</option>
+<option>Eclipse</option>
+<option>Winter Wyvern</option>
+<option>Arctic Burn</option>
+<option>Winter's Curse</option>
+<option>Lycan</option>
+<option>Feral Impulse</option>
+<option>Pack Leadership</option>
+<option>Werewolf</option>
+<option>Chen</option>
+<option>Holy Persuasion</option>
+<option>Divine Favor</option>
+<option>Bloodseeker</option>
+<option>Thirst</option>
+<option>Axe</option>
+<option>Berserker's Call</option>
+<option>Centaur Warrunner</option>
+<option>Stampede</option>
+<option>Great Fortitude</option>
+<option>Timbersaw</option>
+<option>Timber Chain</option>
+<option>Tidehunter</option>
+<option>Ravage</option>
+<option>Anchor Smash</option>
+<option>Tinker</option>
+<option>Laser</option>
+<option>Rix</option>
+<option>Relentless Rebel</option>
+<option>Beastmaster</option>
+<option>Call of the Wild</option>
+<option>Inner Beast</option>
+<option>Bristleback</option>
+<option>Drow Ranger</option>
+<option>Precision Aura</option>
+<option>Earthshaker</option>
+<option>Fissure</option>
+<option>Aftershock</option>
+<option>Enchantress</option>
+<option>Untouchable</option>
+<option>Lich</option>
+<option>Sacrifice</option>
+<option>Ogre Magi</option>
+<option>Multicast</option>
+<option>Omniknight</option>
+<option>Purification</option>
+<option>Phantom Assassin</option>
+<option>Efficient Killer</option>
+<option>Pugna</option>
+<option>Nether Blast</option>
+<option>Nether Ward</option>
+<option>Sniper</option>
+<option>Headshot</option>
+<option>Sven</option>
+<option>Great Cleave</option>
+<option>Treant Protector</option>
+<option>Branches of Iron</option>
+<option>Sorla Khan</option>
+<option>Warmonger</option>
+<option>Necrophos</option>
+<option>Sadist</option>
+<option>Skywrath Mage</option>
+<option>Concussive Shot</option>
+<option>Mystic Flare</option>
+<option>Crystal Maiden</option>
+<option>Arcane Aura</option>
+<option>Static Field</option>
+<option>Zeus</option>
+<option>Dark Seer</option>
+<option>Vacuum</option>
+<option>Legion Commander</option>
+<option>Moment of Courage</option>
+<option>Ursa</option>
+<option>Fury Swipes</option>
+<option>Lina</option>
+<option>Fiery Soul</option>
+<option>Light Strike Array</option>
+<option>Dragon Slave</option>
+<option>Laguna Blade</option>
+<option>Smeevil Armsmaster</option>
+<option>Sister of the Void</option>
+<option>Tyler Estate Censor</option>
+<option>Smeevil Blacksmith</option>
+<option>Rebel Decoy</option>
+<option>Centaur Poacher</option>
+<option>Pit Fighter of Quoidge</option>
+<option>Assassin's Shadow</option>
+<option>Disciple of Nevermore</option>
+<option>Legion Standard Bearer</option>
+<option>Relentless Zombie</option>
+<option>Revtel Convoy</option>
+<option>Oglodi Vandal</option>
+<option>Mercenary Exiles</option>
+<option>Keenfolk Golem</option>
+<option>Emissary of the Quorum</option>
+<option>Marrowfell Brawler</option>
+<option>Thunderhide Pack</option>
+<option>Ogre Corpse Tosser</option>
+<option>Bronze Legionnaire</option>
+<option>Vhoul Martyr</option>
+<option>Thunderhide Alpha</option>
+<option>Satyr Duelist</option>
+<option>Savage Wolf</option>
+<option>Rampaging Hellbear</option>
+<option>Cursed Satyr</option>
+<option>Ravenhook</option>
+<option>Ravenous Mass</option>
+<option>Roseleaf Druid</option>
+<option>Hellbear Crippler</option>
+<option>Selfish Cleric</option>
+<option>Ogre Conscript</option>
+<option>Untested Grunt</option>
+<option>Assassin's Apprentice</option>
+<option>Stonehall Elite</option>
+<option>Red Mist Pillager</option>
+<option>Champion of the Ancient</option>
+<option>Roseleaf Rejuvenator</option>
+<option>Loyal Beast</option>
+<option>Satyr Magician</option>
+<option>Troll Soothsayer</option>
+<option>Assured Destruction</option>
+<option>Fractured Timeline</option>
+<option>Unearthed Secrets</option>
+<option>The Tyler Estate</option>
+<option>Homefield Advantage</option>
+<option>Bitter Enemies</option>
+<option>Conflagration</option>
+<option>Ignite</option>
+<option>Trebuchets</option>
+<option>Unsupervised Artillery</option>
+<option>Revtel Investments</option>
+<option>Iron Fog Goldmine</option>
+<option>Selemene's Favor</option>
+<option>Mist of Avernus</option>
+<option>Altar of the Mad Moon</option>
+<option>Howling Mind</option>
+<option>Temple of War</option>
+<option>Burning Oil</option>
+<option>Aghanim's Sanctum</option>
+<option>Escape Route</option>
+<option>Assault Ladders</option>
+<option>Messenger Rookery</option>
+<option>Cheating Death</option>
+<option>The Omexe Arena</option>
+<option>Keenfolk Turret</option>
+<option>Steam Cannon</option>
+<option>Glyph of Confusion</option>
+<option>Rumusque Blessing</option>
+<option>Enchant</option>
+<option>Watchtower</option>
+<option>Assassin's Veil</option>
+<option>Phase Boots</option>
+<option>Stonehall Cloak</option>
+<option>Blink Dagger</option>
+<option>Barbed Mail</option>
+<option>Demagicking Maul</option>
+<option>Blade of the Vigil</option>
+<option>Broadsword</option>
+<option>Golden Ticket</option>
+<option>Keenfolk Musket</option>
+<option>Ring of Tarrasque</option>
+<option>Bracers of Sacrifice</option>
+<option>Red Mist Maul</option>
+<option>Helm of the Dominator</option>
+<option>Vesture of the Tyrant</option>
+<option>Wingfall Hammer</option>
+<option>Ristul Emblem</option>
+<option>Cloak of Endless Carnage</option>
+<option>Poaching Knife</option>
+<option>Claymore</option>
+<option>Hooked Net</option>
+<option>Horn of the Alpha</option>
+<option>Nyctasha's Guard</option>
+<option>Apotheosis Blade</option>
+<option>Corrosive Mist</option>
+<option>...And One For Me</option>
+<option>Grazing Shot</option>
+<option>Assassinate</option>
+<option>Hip Fire</option>
+<option>Heartstopper Aura</option>
+<option>Frostbite</option>
+<option>Thundergod's Wrath</option>
+<option>Ion Shell</option>
+<option>Overpower</option>
+<option>Culling Blade</option>
+<option>Exsanguinate</option>
+<option>Kraken Shell</option>
+<option>Gush</option>
+<option>March of the Machines</option>
+<option>Double Edge</option>
+<option>Primal Roar</option>
+<option>Whirling Death</option>
+<option>Defend the Weak</option>
+<option>Bellow</option>
+<option>Raze</option>
+<option>Smash Their Defenses!</option>
+<option>Foresight</option>
+<option>Coup de Grace</option>
+<option>Oglodi Catapult</option>
+<option>Arm the Rebellion</option>
+<option>Arc Bolt</option>
+<option>Poised to Strike</option>
+<option>Annihilation</option>
+<option>Chain Frost</option>
+<option>Echo Slam</option>
+<option>No Hesitation</option>
+<option>Heroic Resolve</option>
+<option>Gank</option>
+<option>God's Strength</option>
+<option>Murder Plot</option>
+<option>Stars Align</option>
+<option>Call the Reserves</option>
+<option>Better Late Than Never</option>
+<option>Divine Intervention</option>
+<option>Gust</option>
+<option>Hand of God</option>
+<option>Duel</option>
+<option>Fighting Words</option>
+<option>Clear the Deck</option>
+<option>Repel</option>
+<option>Sucker Punch</option>
+<option>Lightning Strike</option>
+<option>Bolt of Damocles</option>
+<option>Pick Off</option>
+<option>Restoration Effort</option>
+<option>Buying Time</option>
+<option>Friendly Fire</option>
+<option>Juke</option>
+<option>New Orders</option>
+<option>Rend Armor</option>
+<option>Soul of Spring</option>
+<option>Arcane Assault</option>
+<option>Remote Detonation</option>
+<option>Volatile Fog</option>
+<option>Divine Purpose</option>
+<option>Intimidation</option>
+<option>Tresdin's Standards</option>
+<option>Compel</option>
+<option>Caught Unprepared</option>
+<option>Tower Barrage</option>
+<option>Steal Strength</option>
+<option>The Cover of Night</option>
+<option>Slay</option>
+<option>Cunning Plan</option>
+<option>Thunderstorm</option>
+<option>Spring the Trap</option>
+<option>Ventriloquy</option>
+<option>Viscous Nasal Goo</option>
+<option>Act of Defiance</option>
+<option>Whispers of Madness</option>
+<option>At Any Cost</option>
+<option>Time of Triumph</option>
+<option>Storm Spirit</option>
+<option>Static Remnant</option>
+<option>Overload</option>
+<option>Ball Lightning</option>
+<option>Harmony in Chaos</option>
+<option>Berserker of the Abyssm</option>
+<option>Stonehall Conscriptor</option>
+<option>Unstable Elemental</option>
+<option>Burning Pitch</option>
+<option>Slumbering Brute</option>
+<option>Mimicry</option>
+<option>Flesh of Iron</option>
+<option>Iron Sharpens Iron</option>
+<option>Committed Rebel</option>
+<option>Honor Guard</option>
+<option>Wildwing Bait</option>
+<option>Wildwing</option>
+<option>Fell Spirit</option>
+<option>Shifting Loyalties</option>
+<option>Wall of Secrets</option>
+<option>Wave of Madness</option>
+<option>Tower Explosion</option>
+<option>Living Armor</option>
+<option>Back For More</option>
+<option>Infernal Ally</option>
+<option>Knife of the Sisterhood</option>
+<option>Demolishing Warhammer</option>
+<option>Main Gauche</option>
+<option>Rumusque Scythe</option>
+<option>Mortred's Dagger</option>
+<option>Healing Blade</option>
+<option>Warhorn</option>
+<option>Crown of the Undying</option>
+<option>Artificer's Mail</option>
+<option>Animated Armor</option>
+<option>Infernal Amulet</option>
+<option>Revtel Mercenary Contract</option>
+<option>Revtel Mercenary</option>
+<option>Robes of the Envoy</option>
+<option>Midas Greaves</option>
+<option>Anti-Mage</option>
+<option>Blink Strike</option>
+<option>Mana Void</option>
+<option>Death Prophet</option>
+<option>Spirit Siphon</option>
+<option>Exorcism</option>
+<option>Lady Anshu</option>
+<option>Devoted Disciple</option>
+<option>Hymn of St. Crella</option>
+<option>Mirana</option>
+<option>Leap</option>
+<option>Sacred Arrow</option>
+<option>Pierpont</option>
+<option>Inspect</option>
+<option>Archon Investigation</option>
+<option>Sapphire Archon</option>
+<option>Expose the Truth</option>
+<option>Rix, Oathbound</option>
+<option>Assault</option>
+<option>Oathed</option>
+<option>The Twisted Path</option>
+<option>Rubick</option>
+<option>Telekinesis</option>
+<option>Spell Steal</option>
+<option>Shadow Fiend</option>
+<option>Necromastery</option>
+<option>Requiem of Souls</option>
+<option>Presence of the Dark Lord</option>
+<option>Tusk</option>
+<option>Walrus Punch</option>
+<option>Ice Shards</option>
+<option>Ice Shard</option>
+<option>Underlord</option>
+<option>Dark Rift</option>
+<option>Atrophy Aura</option>
+<option>Vanessa</option>
+<option>Versatile Occultist</option>
+<option>Overcharged Artificer</option>
+<option>Void Theft</option>
+<option>Dazzle</option>
+<option>Shadow Wave</option>
+<option>Weave</option>
+<option>Agent of Claszureme</option>
+<option>Spirit Swordsman</option>
+<option>Enemy Of My Enemy</option>
+<option>Into the Fray</option>
+<option>Stonehall Armory</option>
+<option>Team Fight</option>
+<option>Rumusque Redeemer</option>
+<option>Fist of the Allseeing One</option>
+<option>Phantom Lancer</option>
+<option>Juxtapose</option>
+<option>Lancer Illusion</option>
+<option>Illusion Confusion</option>
+<option>Phantom Rush</option>
+<option>Orchid</option>
+<option>Abyssm Flesh Render</option>
+<option>Horde Stryder</option>
+<option>Insidious Plot</option>
+<option>Destroyed from Within</option>
+<option>Red Mist Siegemaster</option>
+<option>Imperia</option>
+<option>Skullduggery</option>
+<option>Plans Within Plans</option>
+<option>Conspiracy of Ravens</option>
+<option>Noxious Bloat-rat</option>
+<option>Eidolon</option>
+<option>Eidolon Placeholder</option>
+<option>Eidolon Placeholder 2</option>
+<option>Marrowfell Longspear</option>
+<option>Quicksap Sproutling</option>
+<option>Fey Wayfinder</option>
+<option>Lashvine Creeper</option>
+<option>Moonglade Fusilier</option>
+<option>Homunculus</option>
+<option>Spirit of Desolation</option>
+<option>Morphling Whelp</option>
+<option>Sapphire Archivist</option>
+<option>Defenestrating Kobold</option>
+<option>Maelrawn Pupate</option>
+<option>Spawn of Maelrawn</option>
+<option>Outworld Destroyer</option>
+<option>Arcane Flux</option>
+<option>Astral Imprisonment</option>
+<option>Arclight Elemental</option>
+<option>Arc Remnant</option>
+<option>Battlefield Promotion</option>
+<option>Unbreakable Column</option>
+<option>Throw Down</option>
+<option>Veteran's Insight</option>
+<option>Slash It!</option>
+<option>Overpower2</option>
+<option>Spriggan Mischief</option>
+<option>Lost Woods</option>
+<option>Nature's Fury</option>
+<option>Relentless Pursuit</option>
+<option>Path of the Cunning</option>
+<option>Path of the Wise</option>
+<option>Path of the Dreamer</option>
+<option>Path of the Bold</option>
+<option>Rebel Rabble Rouser</option>
+<option>Revtel Signet Ring</option>
+<option>Hero's Cape</option>
+<option>Claszureme Hourglass</option>
+<option>Bounty Hunter</option>
+<option>Track</option>
+<option>Shadow Walk</option>
+<option>Venomancer</option>
+<option>Venomous Nature</option>
+<option>Poison Sting</option>
+<option>Sow Venom</option>
+<option>Plague Ward</option>
+<option>Sorla Khan's Spear</option>
+<option>Spot Weakness</option>
+<option>Jasper Daggers</option>
+<option>Possessed Blade</option>
+<option>Mana Short</option>
+<option>Body Modifications</option>
+<option>Wild Magic</option>
+<option>Essence Font</option>
+<option>Killer Instinct</option>
+<option>Sapper</option>
+<option>Greevil Shenanigans</option>
+<option>Knives in the Dark</option>
+<option>Objective Vision</option>
+<option>Ramp Bolt</option>
+<option>Psychic Surgery</option>
+<option>Incarnation of Selemene</option>
+<option>The Oath</option>
+<option>Battle Hunger</option>
+<option>Death Pulse</option>
+<option>Life Drain</option>
+<option>Transmuted Weapon</option>
+<option>Squirmified-Straps</option>
+<option>Malchanted Mango</option>
+<option>Kanna</option>
+<option>Bringer of Conquest</option>
+<option>Prey on the Weak</option>
+<option>Diabolic Conclusion</option>
+<option>Hound of War</option>
+<option>Force Staff</option>
+<option>Sheep Stick</option>
+<option>Sheep</option>
+<option>Acolyte of the Radiant</option>
+<option>Roused Rabble</option>
+<option>Sand King</option>
+<option>Sandstorm</option>
+<option>Burrowstrike</option>
+<option>Tiny</option>
+<option>Grow</option>
+<option>Toss</option>
+<option>Prellex</option>
+<option>Gather the Faithful</option>
+<option>Barracks</option>
+<option>Mega Creep</option>
+<option>Ring of Basilius</option>
+<option>Necronomicon</option>
+<option>Demonic Archer</option>
+<option>Crafty Kobold</option>
+<option>Screeching Wildwing</option>
+<option>Thieving Greevil</option>
+<option>Gaseous Greevil</option>
+<option>Greevil Bronco</option>
+<option>Greevil Eggtender</option>
+<option>Spirited Greevil</option>
+<option>Sticky Greevil</option>
+<option>Spitting Greevil</option>
+<option>Determined Greevil</option>
+<option>Naked Greevil</option>
+<option>Greevil Egg</option>
+<option>Rebel Recruiter</option>
+<option>Legion Scouting Party</option>
+<option>Stonehall Keep Breaker</option>
+<option>Legion Consul</option>
+<option>Imperial Herald</option>
+<option>Beyond the Veil</option>
+<option>Rock</option>
+<option>Dragon Knight</option>
+<option>Dragon Blood</option>
+<option>Dragon Form</option>
+<option>Dragon Tail</option>
+<option>Dragon</option>
+<option>Corrosive Breath</option>
+<option>Wraith King</option>
+<option>Reincarnation</option>
+<option>Wraithfire Blast</option>
+<option>Farvhan the Dreamer</option>
+<option>Strength in Numbers</option>
+<option>Prowler Vanguard</option>
+<option>Keefe the Bold</option>
+<option>Reckless Charge</option>
+<option>Debbi the Cunning</option>
+<option>Scrapper</option>
+<option>No Accident</option>
+<option>J'Muy the Wise</option>
+<option>Wisdom of the Elders</option>
+<option>Runic Instigation</option>
+<option>Stop Hittin' Yourself</option>
+<option>Quill Spray</option>
+<option>Mjollnir</option>
+<option>Silver Edge</option>
+<option>Nullifier</option>
+<option>Shield of St. Crella</option>
+<option>Vladmir's Offering</option>
+<option>Spirit Vessel</option>
+<option>Holy Locket</option>
+<option>Radiance</option>
+<option>Darkblight Shield</option>
+<option>Refresher Orb</option>
+<option>Dagon</option>
+<option>Seraphim Shield</option>
+<option>Gem of True Sight</option>
+<option>Ghost Scepter</option>
+<option>Creep Reinforcements</option>
+<option>Mana Break</option>
+<option>Viper</option>
+<option>Poison Attack</option>
+<option>Nethertoxin</option>
+<option>Rod of Atos</option>
+<option>Troll Warlord</option>
+<option>Fervor</option>
+<option>Whirling Axes</option>
+<option>Battle Trance</option>
+<option>Reaper's Scythe</option>
+<option>Courier</option>
+<option>Noxious Talisman</option>
+<option>Stonehall Paragon</option>
+<option>Arc Warden</option>
+<option>Tempest Double</option>
+<option>The Double</option>
+<option>Tempest Clone</option>
+<option>Spark Wraith</option>
+<option>Spirit of St. Crella</option>
+<option>Presence of St. Crella</option>
+<option>Nyx Assassin</option>
+<option>Vendetta</option>
+<option>Spiked Carapace</option>
+<option>In Full Bloom</option>
+<option>Plague Hex</option>
+<option>Strength Potion Twin Pack</option>
+<option>Abaddon</option>
+<option>Borrowed Time</option>
+<option>Mist Coil</option>
+<option>Mazzie</option>
+<option>Gear Head</option>
+<option>Mazer Beam X-179</option>
+<option>Kineto-Zap Harmor Type XLII</option>
+<option>Sproink Springers Mk.23</option>
+<option>Rumusque Choir</option>
+<option>Shock Trooper</option>
+<option>Burning Lesions</option>
+<option>Birds of Paradox</option>
+<option>Centaur Warband</option>
+<option>Raid</option>
+<option>Pincer</option>
+<option>Loyal Guardian</option>
+<option>Arcane Citadel</option>
+<option>Ozkavosh Horror</option>
+<option>Gold Elemental</option>
+<option>Corpse Horde</option>
+<option>Magnus</option>
+<option>Shockwave</option>
+<option>Skewer</option>
+<option>Canid Bushwacker</option>
+<option>Doomed Villager</option>
+<option>Vengeful Vhoul</option>
+<option>Vhoul Ambush</option>
+<option>Canid Commando</option>
+<option>Vhoul Ringleader</option>
+<option>Quoidgic Outreach Coordinator</option>
+<option>Let's Keep Moving</option>
+<option>Quoidgic Hospitality</option>
+<option>Merjuun the Gibbering</option>
+<option>Marrow Rust</option>
+<option>Living Shadow of Carter St.</option>
+<option>Infectious Blight</option>
+<option>Bodega Wraith</option>
+<option>You Are The Product</option>
+<option>Sewer Phantom</option>
+<option>Sewer Phantom Power</option>
+<option>Accumulated Pigeon Rage</option>
+<option>Pigeon Rage Power</option>
+<option>Helpful Treant Tourist</option>
+<option>Calming Vines</option>
+<option>Djinni Tourist</option>
+<option>Djinni Power</option>
+<option>Disguised Lady Anshu</option>
+<option>Golem Tourist</option>
+<option>Golem Power</option>
+<option>Pigeon</option>
+<option>Children of Necrophos</option>
+<option>Caustic Insight</option>
+<option>Citizen of Quoidge</option>
+<option>Plague-Ridden Wolf</option>
+<option>Infectious Bite</option>
+<option>Gelatinous Vapor</option>
+<option>Pneumonic Spray</option>
+<option>Sentient Pustule</option>
+<option>Burst</option>
+<option>Tortured Soul</option>
+<option>Rix, Legionnaire</option>
+<option>Kinetic Diplomacy</option>
+<option>Scout Ertun</option>
+<option>Scout Qamis</option>
+<option>Scout Ur Maq</option>
+<option>Marcus</option>
+<option>Out of Earshot</option>
+<option>Behold my Glory</option>
+<option>Vhoul Conscript</option>
+<option>Alcur</option>
+<option>Meet the Moment</option>
+<option>Fight For Roseleaf</option>
+<option>Null Hero</option>
+<option>Undying</option>
+<option>Soul Rip</option>
+<option>Herald of the Dead God</option>
+<option>Restless Spirit</option>
+<option>Spirit Strike</option>
+<option>Sunken Ikhshid</option>
+<option>Fell Edict</option>
+<option>Merchant Wraith</option>
+<option>Wretched Coffers</option>
+<option>Shadow Aspirant of Ra'hul</option>
+<option>Seal of Binding</option>
+<option>Fae Haunt</option>
+<option>Malignant Notion</option>
+<option>Elder Mass</option>
+<option>Informed Consumption</option>
+<option>Unspeakable Seepage</option>
+<option>Entrail Adder</option>
+<option>Vile Embrace</option>
+<option>Ambassador of Quoidge</option>
+<option>Message of Peace</option>
+<option>Handmaiden of the Dead God</option>
+<option>Unclean Blessing</option>
+<option>Phalangeal Horror</option>
+<option>Boneshard Weapons</option>
+<option>Ear of the Dead God</option>
+<option>Hand of the Dead God</option>
+<option>Mouth of the Dead God</option>
+<option>Lukol-Po</option>
+<option>Cutting Boast</option>
+<option>Sly Riposte</option>
+<option>Rumusque Consecration Ritual</option>
+<option>Mogul Khan</option>
+<option>Direct Damage</option>
+<option>Dagger</option>
+<option>Blooming Wall</option>
+<option>Emboldening Presence</option>
+<option>Push</option>
+<option>Fire Strike</option>
+<option>Murder Creep</option>

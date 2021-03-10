@@ -1,0 +1,91 @@
+Mode Rules
+[tower_health=40,ancient_health=40,cards_first_turn=0,cards_first_turn_ai=0,dcg_shop_exists=0]
+
+Player 1
+You [Mana=999,Gold=989]
+
+Player 0 Improvements 1
+Stuff Here
+
+Player 0 Improvements 2
+Stuff Here
+
+Player 0 Improvements 3
+Stuff Here
+
+Player 1 Improvements 1
+Stuff Here
+
+Player 1 Improvements 2
+Stuff Here
+
+Player 1 Improvements 3
+Stuff Here
+
+Player 1 Hand
+Stuff Here
+
+Player 0 Hand
+Stuff Here
+
+Player 0 Tower 1
+Defense Tower
+
+Player 0 Tower 2
+Ancient Tower [Damage=30]
+
+Player 0 Tower 3
+Defense Tower
+
+Player 1 Tower 1
+Defense Tower
+
+Player 1 Tower 2
+Ancient Tower [Damage=30]
+
+Player 1 Tower 3
+Defense Tower
+
+Player 0 Combat 1
+Empty
+Empty
+Empty
+Empty
+Empty
+
+Player 0 Combat 2
+Empty
+Empty
+Empty
+Empty
+Empty
+
+Player 0 Combat 3
+Empty
+Empty
+Empty
+Empty
+Empty
+
+Player 1 Combat 1
+Empty
+Empty
+Empty
+Empty
+Empty
+
+Player 1 Combat 2
+Empty
+Empty
+Empty
+Empty
+Empty
+
+Player 1 Combat 3
+Empty
+Empty
+Empty
+Empty
+Empty
+
+	

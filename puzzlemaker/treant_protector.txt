@@ -1,0 +1,74 @@
+Mode Rules
+[tower_health=40,ancient_health=40,cards_first_turn=0]
+
+Player 1
+[Mana=8]
+
+Player 1 Hand
+Living Armor
+Living Armor
+
+Player 1 Deck
+Quicksap Sproutling
+Vhoul Martyr
+
+Player 0 Tower 1
+Defense Tower [Damage=35]
+
+Player 0 Tower 2
+Defense Tower [Damage=35]
+
+Player 0 Tower 3
+Defense Tower [Damage=35]
+
+Player 1 Tower 1
+Defense Tower [Damage=35]
+
+Player 1 Tower 2
+Ancient Tower [Damage=35]
+
+Player 1 Tower 3
+Defense Tower [Damage=35]
+
+Player 0 Combat 1
+Melee Creep
+Empty
+Empty
+Empty
+Empty
+
+Player 0 Combat 2
+Melee Creep
+Empty
+Empty
+Empty
+Empty
+
+Player 0 Combat 3
+Melee Creep
+Empty
+Empty
+Storm Spirit
+Empty
+
+Player 1 Combat 1
+Melee Creep
+Empty
+Empty
+Empty
+Empty
+
+Player 1 Combat 2
+Melee Creep
+Empty
+Treant Protector
+Empty
+Empty
+
+Player 1 Combat 3
+Melee Creep
+Empty
+Empty
+Thunderhide Pack
+Empty
+	
