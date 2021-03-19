@@ -1,4 +1,4 @@
-# Artifact Foundry(2.0) Puzzle Maker
+# Artifact Foundry (2.0) Puzzle Maker
 WIP Puzzle Maker for Artifact Foundry (2.0)
 
 ## Start Making Puzzles
