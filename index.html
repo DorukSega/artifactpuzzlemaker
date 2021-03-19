@@ -11,7 +11,7 @@
 <script src="js/main.js"></script>
     <div id="edit">
         <label>Player 0:</label><br><label>Mana= </label><input type="text" value="0" id="P0MANA"> <label>Gold= </label><input type="text" value="0" id="P0GOLD"><br>
-        <label>Player 1(You):</label><br><label>Mana= </label><input type="text" value="0" id="P1MANA"> <label>Gold= </label><input type="text" value="0" id="P1MANA">
+        <label>Player 1(You):</label><br><label>Mana= </label><input type="text" value="0" id="P1MANA"> <label>Gold= </label><input type="text" value="0" id="P1GOLD">
         <br>
         <label>Player 0 Improvements 1</label><br><select class= "improvcards" id="I1P0SLOT1" name="Player 0 Improvements 1 Slot 1"></select><br><select class= "improvcards" id="I1P0SLOT2" name="Player 0 Improvements 1 Slot 2"></select><br><select class= "improvcards" id="I1P0SLOT3" name="Player 0 Improvements 1 Slot 3"></select><br><select class= "improvcards" id="I1P0SLOT4" name="Player 0 Improvements 1 Slot 4"></select><br><select class= "improvcards" id="I1P0SLOT5" name="Player 0 Improvements 1 Slot 5"></select><br><br>
         <label>Player 0 Improvements 2</label><br><select class= "improvcards" id="I2P0SLOT1" name="Player 0 Improvements 2 Slot 1"></select><br><select class= "improvcards" id="I2P0SLOT2" name="Player 0 Improvements 2 Slot 2"></select><br><select class= "improvcards" id="I2P0SLOT3" name="Player 0 Improvements 2 Slot 3"></select><br><select class= "improvcards" id="I2P0SLOT4" name="Player 0 Improvements 2 Slot 4"></select><br><select class= "improvcards" id="I2P0SLOT5" name="Player 0 Improvements 2 Slot 5"></select><br><br>
@@ -26,8 +26,8 @@
         <label>Player 0 Tower 2</label><br><select id="T2P0" name="Player 0 Tower 2"><option>Defense Tower</option><option>Ancient Tower</option></select><label> Damage = </label><input type="text" id="P0T2DAM"><br><br>
         <label>Player 0 Tower 3</label><br><select id="T3P0" name="Player 0 Tower 3"><option>Defense Tower</option><option>Ancient Tower</option></select><label> Damage = </label><input type="text" id="P0T3DAM"><br><br>
         <label>Player 1 Tower 1</label><br><select id="T1P1" name="Player 1 Tower 1"><option>Defense Tower</option><option>Ancient Tower</option></select><label> Damage = </label><input type="text" id="P1T1DAM"><br><br>
-        <label>Player 1 Tower 2</label><br><select id="T1P1" name="Player 1 Tower 2"><option>Defense Tower</option><option>Ancient Tower</option></select><label> Damage = </label><input type="text" id="P1T2DAM"><br><br>
-        <label>Player 1 Tower 3</label><br><select id="T1P1" name="Player 1 Tower 3"><option>Defense Tower</option><option>Ancient Tower</option></select><label> Damage = </label><input type="text" id="P1T3DAM"><br><br>
+        <label>Player 1 Tower 2</label><br><select id="T2P1" name="Player 1 Tower 2"><option>Defense Tower</option><option>Ancient Tower</option></select><label> Damage = </label><input type="text" id="P1T2DAM"><br><br>
+        <label>Player 1 Tower 3</label><br><select id="T3P1" name="Player 1 Tower 3"><option>Defense Tower</option><option>Ancient Tower</option></select><label> Damage = </label><input type="text" id="P1T3DAM"><br><br>
         <!--Dont forget to add card equips. Mazzie can equip unlimited and rest can equip 2 -->
         <label>Player 0 Combat 1</label><br><select class= "combatcards" id="C1P0SLOT1" name="Player 0 Combat 1 Slot 1"></select><br><select class= "combatcards" id="C1P0SLOT2" name="Player 0 Combat 1 Slot 2"></select><br><select class= "combatcards" id="C1P0SLOT3" name="Player 0 Combat 1 Slot 3"></select><br><select class= "combatcards" id="C1P0SLOT4" name="Player 0 Combat 1 Slot 4"></select><br><select class= "combatcards" id="C1P0SLOT5" name="Player 0 Combat 1 Slot 5"></select><br><br>
         <label>Player 0 Combat 2</label><br><select class= "combatcards" id="C2P0SLOT1" name="Player 0 Combat 2 Slot 1"></select><br><select class= "combatcards" id="C2P0SLOT2" name="Player 0 Combat 2 Slot 2"></select><br><select class= "combatcards" id="C2P0SLOT3" name="Player 0 Combat 2 Slot 3"></select><br><select class= "combatcards" id="C2P0SLOT4" name="Player 0 Combat 2 Slot 4"></select><br><select class= "combatcards" id="C2P0SLOT5" name="Player 0 Combat 2 Slot 5"></select><br><br>
@@ -38,7 +38,7 @@
         <button onclick="process()">Process</button>
     </div>
     <div id="result" style="display: none;">
-        <textarea id="resulthere"></textarea><br>
+        <textarea id="resulthere" rows="135" cols="100"></textarea><br>
         <button onclick="back()">New</button>
     </div>
 </body>
