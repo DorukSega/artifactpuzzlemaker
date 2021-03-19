@@ -5,7 +5,7 @@ WIP Puzzle Maker for Artifact Foundry (2.0)
 
 [Click here to open the editor](https://doruksega.github.io/artifactpuzzlemaker/)
 
-## How to open the puzzles ingame
+## How to Open the Puzzles Ingame
 1- Open Puzzle Maker
 
 <img src="https://i.imgur.com/h4X3Q9i.jpg">
