@@ -5,7 +5,6 @@ function load(){
         var option = document.createElement("option");
         option.innerText = element;
         $( ".handcards" ).append(option);
-       
     });
     var combatcardslist = combatcards.split(/\n/gi);
     //console.log(handcardslist)
@@ -13,7 +12,6 @@ function load(){
         var option = document.createElement("option");
         option.innerText = element;
         $( ".combatcards" ).append(option);
-       
     });
     var improvcardslist = improvcards.split(/\n/gi);
     //console.log(improvcardslist)
@@ -21,6 +19,17 @@ function load(){
         var option = document.createElement("option");
         option.innerText = element;
         $( ".improvcards" ).append(option);
-       
     });
+}
+function process(){
+    $( "#edit" ).hide();
+    $( "#result" ).show();
+}
+function back(){
+    $( ".handcards" ).empty();
+    $( ".combatcards" ).empty();
+    $( ".improvcards" ).empty();
+    load();
+    $( "#edit" ).show();
+    $( "#result" ).hide();
 }
