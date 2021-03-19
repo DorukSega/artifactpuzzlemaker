@@ -1,0 +1,789 @@
+let handcards = `Empty
+Meepo
+Poof
+United We Fall
+Divided We Stand
+Luna
+Lucent Beam
+Eclipse
+Winter Wyvern
+Arctic Burn
+Winter's Curse
+Lycan
+Feral Impulse
+Pack Leadership
+Werewolf
+Chen
+Holy Persuasion
+Divine Favor
+Bloodseeker
+Thirst
+Axe
+Berserker's Call
+Centaur Warrunner
+Stampede
+Great Fortitude
+Timbersaw
+Timber Chain
+Tidehunter
+Ravage
+Anchor Smash
+Tinker
+Laser
+Rix
+Relentless Rebel
+Beastmaster
+Call of the Wild
+Inner Beast
+Bristleback
+Drow Ranger
+Precision Aura
+Earthshaker
+Fissure
+Aftershock
+Enchantress
+Untouchable
+Lich
+Sacrifice
+Ogre Magi
+Multicast
+Omniknight
+Purification
+Phantom Assassin
+Efficient Killer
+Pugna
+Nether Blast
+Nether Ward
+Sniper
+Headshot
+Sven
+Great Cleave
+Treant Protector
+Branches of Iron
+Sorla Khan
+Warmonger
+Necrophos
+Sadist
+Skywrath Mage
+Concussive Shot
+Mystic Flare
+Crystal Maiden
+Arcane Aura
+Static Field
+Zeus
+Dark Seer
+Vacuum
+Legion Commander
+Moment of Courage
+Ursa
+Fury Swipes
+Lina
+Fiery Soul
+Light Strike Array
+Dragon Slave
+Laguna Blade
+Smeevil Armsmaster
+Sister of the Void
+Tyler Estate Censor
+Smeevil Blacksmith
+Rebel Decoy
+Centaur Poacher
+Pit Fighter of Quoidge
+Assassin's Shadow
+Disciple of Nevermore
+Legion Standard Bearer
+Relentless Zombie
+Revtel Convoy
+Oglodi Vandal
+Mercenary Exiles
+Keenfolk Golem
+Emissary of the Quorum
+Marrowfell Brawler
+Thunderhide Pack
+Ogre Corpse Tosser
+Bronze Legionnaire
+Vhoul Martyr
+Thunderhide Alpha
+Satyr Duelist
+Savage Wolf
+Rampaging Hellbear
+Cursed Satyr
+Ravenhook
+Ravenous Mass
+Roseleaf Druid
+Hellbear Crippler
+Selfish Cleric
+Ogre Conscript
+Untested Grunt
+Assassin's Apprentice
+Stonehall Elite
+Red Mist Pillager
+Champion of the Ancient
+Roseleaf Rejuvenator
+Loyal Beast
+Satyr Magician
+Troll Soothsayer
+Assured Destruction
+Fractured Timeline
+Unearthed Secrets
+The Tyler Estate
+Homefield Advantage
+Bitter Enemies
+Conflagration
+Ignite
+Trebuchets
+Unsupervised Artillery
+Revtel Investments
+Iron Fog Goldmine
+Selemene's Favor
+Mist of Avernus
+Altar of the Mad Moon
+Howling Mind
+Temple of War
+Burning Oil
+Aghanim's Sanctum
+Escape Route
+Assault Ladders
+Messenger Rookery
+Cheating Death
+The Omexe Arena
+Keenfolk Turret
+Steam Cannon
+Glyph of Confusion
+Rumusque Blessing
+Enchant
+Watchtower
+Assassin's Veil
+Phase Boots
+Stonehall Cloak
+Blink Dagger
+Barbed Mail
+Demagicking Maul
+Blade of the Vigil
+Broadsword
+Golden Ticket
+Keenfolk Musket
+Ring of Tarrasque
+Bracers of Sacrifice
+Red Mist Maul
+Helm of the Dominator
+Vesture of the Tyrant
+Wingfall Hammer
+Ristul Emblem
+Cloak of Endless Carnage
+Poaching Knife
+Claymore
+Hooked Net
+Horn of the Alpha
+Nyctasha's Guard
+Apotheosis Blade
+Corrosive Mist
+...And One For Me
+Grazing Shot
+Assassinate
+Hip Fire
+Heartstopper Aura
+Frostbite
+Thundergod's Wrath
+Ion Shell
+Overpower
+Culling Blade
+Exsanguinate
+Kraken Shell
+Gush
+March of the Machines
+Double Edge
+Primal Roar
+Whirling Death
+Defend the Weak
+Bellow
+Raze
+Smash Their Defenses!
+Foresight
+Coup de Grace
+Oglodi Catapult
+Arm the Rebellion
+Arc Bolt
+Poised to Strike
+Annihilation
+Chain Frost
+Echo Slam
+No Hesitation
+Heroic Resolve
+Gank
+God's Strength
+Murder Plot
+Stars Align
+Call the Reserves
+Better Late Than Never
+Divine Intervention
+Gust
+Hand of God
+Duel
+Fighting Words
+Clear the Deck
+Repel
+Sucker Punch
+Lightning Strike
+Bolt of Damocles
+Pick Off
+Restoration Effort
+Buying Time
+Friendly Fire
+Juke
+New Orders
+Rend Armor
+Soul of Spring
+Arcane Assault
+Remote Detonation
+Volatile Fog
+Divine Purpose
+Intimidation
+Tresdin's Standards
+Compel
+Caught Unprepared
+Tower Barrage
+Steal Strength
+The Cover of Night
+Slay
+Cunning Plan
+Thunderstorm
+Spring the Trap
+Ventriloquy
+Viscous Nasal Goo
+Act of Defiance
+Whispers of Madness
+At Any Cost
+Time of Triumph
+Storm Spirit
+Static Remnant
+Overload
+Ball Lightning
+Harmony in Chaos
+Berserker of the Abyssm
+Stonehall Conscriptor
+Unstable Elemental
+Burning Pitch
+Slumbering Brute
+Mimicry
+Flesh of Iron
+Iron Sharpens Iron
+Committed Rebel
+Honor Guard
+Wildwing Bait
+Wildwing
+Fell Spirit
+Shifting Loyalties
+Wall of Secrets
+Wave of Madness
+Tower Explosion
+Living Armor
+Back For More
+Infernal Ally
+Knife of the Sisterhood
+Demolishing Warhammer
+Main Gauche
+Rumusque Scythe
+Mortred's Dagger
+Healing Blade
+Warhorn
+Crown of the Undying
+Artificer's Mail
+Animated Armor
+Infernal Amulet
+Revtel Mercenary Contract
+Revtel Mercenary
+Robes of the Envoy
+Midas Greaves
+Anti-Mage
+Blink Strike
+Mana Void
+Death Prophet
+Spirit Siphon
+Exorcism
+Lady Anshu
+Devoted Disciple
+Hymn of St. Crella
+Mirana
+Leap
+Sacred Arrow
+Pierpont
+Inspect
+Archon Investigation
+Sapphire Archon
+Expose the Truth
+Rix, Oathbound
+Assault
+Oathed
+The Twisted Path
+Rubick
+Telekinesis
+Spell Steal
+Shadow Fiend
+Necromastery
+Requiem of Souls
+Presence of the Dark Lord
+Tusk
+Walrus Punch
+Ice Shards
+Ice Shard
+Underlord
+Dark Rift
+Atrophy Aura
+Vanessa
+Versatile Occultist
+Overcharged Artificer
+Void Theft
+Dazzle
+Shadow Wave
+Weave
+Agent of Claszureme
+Spirit Swordsman
+Enemy Of My Enemy
+Into the Fray
+Stonehall Armory
+Team Fight
+Rumusque Redeemer
+Fist of the Allseeing One
+Phantom Lancer
+Juxtapose
+Lancer Illusion
+Illusion Confusion
+Phantom Rush
+Orchid
+Abyssm Flesh Render
+Horde Stryder
+Insidious Plot
+Destroyed from Within
+Red Mist Siegemaster
+Imperia
+Skullduggery
+Plans Within Plans
+Conspiracy of Ravens
+Noxious Bloat-rat
+Eidolon
+Eidolon Placeholder
+Eidolon Placeholder 2
+Marrowfell Longspear
+Quicksap Sproutling
+Fey Wayfinder
+Lashvine Creeper
+Moonglade Fusilier
+Homunculus
+Spirit of Desolation
+Morphling Whelp
+Sapphire Archivist
+Defenestrating Kobold
+Maelrawn Pupate
+Spawn of Maelrawn
+Outworld Destroyer
+Arcane Flux
+Astral Imprisonment
+Arclight Elemental
+Arc Remnant
+Battlefield Promotion
+Unbreakable Column
+Throw Down
+Veteran's Insight
+Slash It!
+Overpower2
+Spriggan Mischief
+Lost Woods
+Nature's Fury
+Relentless Pursuit
+Path of the Cunning
+Path of the Wise
+Path of the Dreamer
+Path of the Bold
+Rebel Rabble Rouser
+Revtel Signet Ring
+Hero's Cape
+Claszureme Hourglass
+Bounty Hunter
+Track
+Shadow Walk
+Venomancer
+Venomous Nature
+Poison Sting
+Sow Venom
+Plague Ward
+Sorla Khan's Spear
+Spot Weakness
+Jasper Daggers
+Possessed Blade
+Mana Short
+Body Modifications
+Wild Magic
+Essence Font
+Killer Instinct
+Sapper
+Greevil Shenanigans
+Knives in the Dark
+Objective Vision
+Ramp Bolt
+Psychic Surgery
+Incarnation of Selemene
+The Oath
+Battle Hunger
+Death Pulse
+Life Drain
+Transmuted Weapon
+Squirmified-Straps
+Malchanted Mango
+Kanna
+Bringer of Conquest
+Prey on the Weak
+Diabolic Conclusion
+Hound of War
+Force Staff
+Sheep Stick
+Sheep
+Acolyte of the Radiant
+Roused Rabble
+Sand King
+Sandstorm
+Burrowstrike
+Tiny
+Grow
+Toss
+Prellex
+Gather the Faithful
+Barracks
+Mega Creep
+Ring of Basilius
+Necronomicon
+Demonic Archer
+Crafty Kobold
+Screeching Wildwing
+Thieving Greevil
+Gaseous Greevil
+Greevil Bronco
+Greevil Eggtender
+Spirited Greevil
+Sticky Greevil
+Spitting Greevil
+Determined Greevil
+Naked Greevil
+Greevil Egg
+Rebel Recruiter
+Legion Scouting Party
+Stonehall Keep Breaker
+Legion Consul
+Imperial Herald
+Beyond the Veil
+Rock
+Dragon Knight
+Dragon Blood
+Dragon Form
+Dragon Tail
+Dragon
+Corrosive Breath
+Wraith King
+Reincarnation
+Wraithfire Blast
+Farvhan the Dreamer
+Strength in Numbers
+Prowler Vanguard
+Keefe the Bold
+Reckless Charge
+Debbi the Cunning
+Scrapper
+No Accident
+J'Muy the Wise
+Wisdom of the Elders
+Runic Instigation
+Stop Hittin' Yourself
+Quill Spray
+Mjollnir
+Silver Edge
+Nullifier
+Shield of St. Crella
+Vladmir's Offering
+Spirit Vessel
+Holy Locket
+Radiance
+Darkblight Shield
+Refresher Orb
+Dagon
+Seraphim Shield
+Gem of True Sight
+Ghost Scepter
+Creep Reinforcements
+Mana Break
+Viper
+Poison Attack
+Nethertoxin
+Rod of Atos
+Troll Warlord
+Fervor
+Whirling Axes
+Battle Trance
+Reaper's Scythe
+Courier
+Noxious Talisman
+Stonehall Paragon
+Arc Warden
+Tempest Double
+The Double
+Tempest Clone
+Spark Wraith
+Spirit of St. Crella
+Presence of St. Crella
+Nyx Assassin
+Vendetta
+Spiked Carapace
+In Full Bloom
+Plague Hex
+Strength Potion Twin Pack
+Abaddon
+Borrowed Time
+Mist Coil
+Mazzie
+Gear Head
+Mazer Beam X-179
+Kineto-Zap Harmor Type XLII
+Sproink Springers Mk.23
+Rumusque Choir
+Shock Trooper
+Burning Lesions
+Birds of Paradox
+Centaur Warband
+Raid
+Pincer
+Loyal Guardian
+Arcane Citadel
+Ozkavosh Horror
+Gold Elemental
+Corpse Horde
+Magnus
+Shockwave
+Skewer
+Canid Bushwacker
+Doomed Villager
+Vengeful Vhoul
+Vhoul Ambush
+Canid Commando
+Vhoul Ringleader
+Quoidgic Outreach Coordinator
+Let's Keep Moving
+Quoidgic Hospitality
+Merjuun the Gibbering
+Marrow Rust
+Living Shadow of Carter St.
+Infectious Blight
+Bodega Wraith
+You Are The Product
+Sewer Phantom
+Sewer Phantom Power
+Accumulated Pigeon Rage
+Pigeon Rage Power
+Helpful Treant Tourist
+Calming Vines
+Djinni Tourist
+Djinni Power
+Disguised Lady Anshu
+Golem Tourist
+Golem Power
+Pigeon
+Children of Necrophos
+Caustic Insight
+Citizen of Quoidge
+Plague-Ridden Wolf
+Infectious Bite
+Gelatinous Vapor
+Pneumonic Spray
+Sentient Pustule
+Burst
+Tortured Soul
+Rix, Legionnaire
+Kinetic Diplomacy
+Scout Ertun
+Scout Qamis
+Scout Ur Maq
+Marcus
+Out of Earshot
+Behold my Glory
+Vhoul Conscript
+Alcur
+Meet the Moment
+Fight For Roseleaf
+Null Hero
+Undying
+Soul Rip
+Herald of the Dead God
+Restless Spirit
+Spirit Strike
+Sunken Ikhshid
+Fell Edict
+Merchant Wraith
+Wretched Coffers
+Shadow Aspirant of Ra'hul
+Seal of Binding
+Fae Haunt
+Malignant Notion
+Elder Mass
+Informed Consumption
+Unspeakable Seepage
+Entrail Adder
+Vile Embrace
+Ambassador of Quoidge
+Message of Peace
+Handmaiden of the Dead God
+Unclean Blessing
+Phalangeal Horror
+Boneshard Weapons
+Ear of the Dead God
+Hand of the Dead God
+Mouth of the Dead God
+Lukol-Po
+Cutting Boast
+Sly Riposte
+Rumusque Consecration Ritual
+Mogul Khan
+Direct Damage
+Dagger
+Blooming Wall
+Emboldening Presence
+Push
+Fire Strike
+Murder Creep`;
+let combatcards = `Empty
+`;
+let improvcards = `Empty
+`;
+let emptypuzzle =`
+Mode Rules
+[tower_health=40,ancient_health=40]
+
+Player 0
+[Mana=P0MANA,Gold=P0GOLD]
+
+Player 1
+[Mana=P1MANA,Gold=P1GOLD]
+
+Player 0 Improvements 1
+I1P0SLOT1
+I1P0SLOT2
+I1P0SLOT3
+I1P0SLOT4
+I1P0SLOT5
+
+Player 0 Improvements 2
+I2P0SLOT1
+I2P0SLOT2
+I2P0SLOT3
+I2P0SLOT4
+I2P0SLOT5
+
+Player 0 Improvements 3
+I3P0SLOT1
+I3P0SLOT2
+I3P0SLOT3
+I3P0SLOT4
+I3P0SLOT5
+
+Player 1 Improvements 1
+I1P1SLOT1
+I1P1SLOT2
+I1P1SLOT3
+I1P1SLOT4
+I1P1SLOT5
+
+Player 1 Improvements 2
+I2P1SLOT1
+I2P1SLOT2
+I2P1SLOT3
+I2P1SLOT4
+I2P1SLOT5
+
+Player 1 Improvements 3
+I3P1SLOT1
+I3P1SLOT2
+I3P1SLOT3
+I3P1SLOT4
+I3P1SLOT5
+
+Player 0 Hand
+HP0SLOT1
+HP0SLOT2
+HP0SLOT3
+HP0SLOT4
+HP0SLOT5
+HP0SLOT6
+HP0SLOT7
+HP0SLOT8
+HP0SLOT9
+HP0SLOTX
+
+Player 1 Hand
+HP1SLOT1
+HP1SLOT2
+HP1SLOT3
+HP1SLOT4
+HP1SLOT5
+HP1SLOT6
+HP1SLOT7
+HP1SLOT8
+HP1SLOT9
+HP1SLOTX
+
+Player 0 Tower 1
+T1P0
+
+Player 0 Tower 2
+T2P0
+
+Player 0 Tower 3
+T3P0
+
+Player 1 Tower 1
+T1P1
+
+Player 1 Tower 2
+T2P1
+
+Player 1 Tower 3
+T3P1
+
+Player 0 Combat 1
+C1P0SLOT1
+C1P0SLOT2
+C1P0SLOT3
+C1P0SLOT4
+C1P0SLOT5
+
+Player 0 Combat 2
+C2P0SLOT1
+C2P0SLOT2
+C2P0SLOT3
+C2P0SLOT4
+C2P0SLOT5
+
+Player 0 Combat 3
+C3P0SLOT1
+C3P0SLOT2
+C3P0SLOT3
+C3P0SLOT4
+C3P0SLOT5
+
+Player 1 Combat 1
+C1P1SLOT1
+C1P1SLOT2
+C1P1SLOT3
+C1P1SLOT4
+C1P1SLOT5
+
+Player 1 Combat 2
+C2P1SLOT1
+C2P1SLOT2
+C2P1SLOT3
+C2P1SLOT4
+C2P1SLOT5
+
+Player 1 Combat 3
+C3P1SLOT1
+C3P1SLOT2
+C3P1SLOT3
+C3P1SLOT4
+C3P1SLOT5
+`; 

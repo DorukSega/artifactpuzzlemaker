@@ -1,91 +1,134 @@
 Mode Rules
-[tower_health=40,ancient_health=40,cards_first_turn=0,cards_first_turn_ai=0,dcg_shop_exists=0]
+[tower_health=40,ancient_health=40]
+
+Player 0
+[Mana=P0MANA,Gold=P0GOLD]
 
 Player 1
-You [Mana=999,Gold=989]
+[Mana=P1MANA,Gold=P1GOLD]
 
 Player 0 Improvements 1
-Stuff Here
+I1P0SLOT1
+I1P0SLOT2
+I1P0SLOT3
+I1P0SLOT4
+I1P0SLOT5
 
 Player 0 Improvements 2
-Stuff Here
+I2P0SLOT1
+I2P0SLOT2
+I2P0SLOT3
+I2P0SLOT4
+I2P0SLOT5
 
 Player 0 Improvements 3
-Stuff Here
+I3P0SLOT1
+I3P0SLOT2
+I3P0SLOT3
+I3P0SLOT4
+I3P0SLOT5
 
 Player 1 Improvements 1
-Stuff Here
+I1P1SLOT1
+I1P1SLOT2
+I1P1SLOT3
+I1P1SLOT4
+I1P1SLOT5
 
 Player 1 Improvements 2
-Stuff Here
+I2P1SLOT1
+I2P1SLOT2
+I2P1SLOT3
+I2P1SLOT4
+I2P1SLOT5
 
 Player 1 Improvements 3
-Stuff Here
-
-Player 1 Hand
-Stuff Here
+I3P1SLOT1
+I3P1SLOT2
+I3P1SLOT3
+I3P1SLOT4
+I3P1SLOT5
 
 Player 0 Hand
-Stuff Here
+HP0SLOT1
+HP0SLOT2
+HP0SLOT3
+HP0SLOT4
+HP0SLOT5
+HP0SLOT6
+HP0SLOT7
+HP0SLOT8
+HP0SLOT9
+HP0SLOTX
+
+Player 1 Hand
+HP1SLOT1
+HP1SLOT2
+HP1SLOT3
+HP1SLOT4
+HP1SLOT5
+HP1SLOT6
+HP1SLOT7
+HP1SLOT8
+HP1SLOT9
+HP1SLOTX
 
 Player 0 Tower 1
-Defense Tower
+T1P0
 
 Player 0 Tower 2
-Ancient Tower [Damage=30]
+T2P0
 
 Player 0 Tower 3
-Defense Tower
+T3P0
 
 Player 1 Tower 1
-Defense Tower
+T1P1
 
 Player 1 Tower 2
-Ancient Tower [Damage=30]
+T2P1
 
 Player 1 Tower 3
-Defense Tower
+T3P1
 
 Player 0 Combat 1
-Empty
-Empty
-Empty
-Empty
-Empty
+C1P0SLOT1
+C1P0SLOT2
+C1P0SLOT3
+C1P0SLOT4
+C1P0SLOT5
 
 Player 0 Combat 2
-Empty
-Empty
-Empty
-Empty
-Empty
+C2P0SLOT1
+C2P0SLOT2
+C2P0SLOT3
+C2P0SLOT4
+C2P0SLOT5
 
 Player 0 Combat 3
-Empty
-Empty
-Empty
-Empty
-Empty
+C3P0SLOT1
+C3P0SLOT2
+C3P0SLOT3
+C3P0SLOT4
+C3P0SLOT5
 
 Player 1 Combat 1
-Empty
-Empty
-Empty
-Empty
-Empty
+C1P1SLOT1
+C1P1SLOT2
+C1P1SLOT3
+C1P1SLOT4
+C1P1SLOT5
 
 Player 1 Combat 2
-Empty
-Empty
-Empty
-Empty
-Empty
+C2P1SLOT1
+C2P1SLOT2
+C2P1SLOT3
+C2P1SLOT4
+C2P1SLOT5
 
 Player 1 Combat 3
-Empty
-Empty
-Empty
-Empty
-Empty
-
-	
+C3P1SLOT1
+C3P1SLOT2
+C3P1SLOT3
+C3P1SLOT4
+C3P1SLOT5
