@@ -1,0 +1,5 @@
+- Add card equips. Mazzie can equip unlimited and rest can equip 2. 
+- Add a way to change game rules [tower_health=40,ancient_health=40]
+- add card damage [Damage=8] and ability stuff [AbilityCooldown=0] [Charges=5] [PassiveCharges=6] also silenced
+- Add a way to add more cands to hand
+- Water the plants
