@@ -1,3 +1,4 @@
+var puzzlename="Puzzle";
 function load(){
     var handcardslist = handcards.split(/\n/gi);
     //console.log(handcardslist)
@@ -20,9 +21,19 @@ function load(){
         option.innerText = element;
         $( ".improvcards" ).append(option);
     });
+    var towerslist = towers.split(/\n/gi) ; //Towers
+    towerslist.forEach(element => {
+        var option = document.createElement("option");
+        option.innerText = element;
+        $( ".towers" ).append(option);
+    });
 }
 function process(){
     var editdata = emptypuzzle;
+    editdata = editdata.replace("NAMEHERE",$( "#NAMEHERE" ).val());
+    puzzlename=$( "#NAMEHERE" ).val();
+    if (document.getElementById("SHOPEXISTS").checked == true){editdata = editdata.replace("SHOPEXISTS", "0");}
+    else{editdata = editdata.replace("SHOPEXISTS","1");}
     //Mana and Gold
     editdata = editdata.replace("P0MANA",$( "#P0MANA" ).val());
     editdata = editdata.replace("P0GOLD",$( "#P0GOLD" ).val());
@@ -61,27 +72,47 @@ function process(){
     editdata = editdata.replace("I3P1SLOT4",$( "#I3P1SLOT4" ).val());
     editdata = editdata.replace("I3P1SLOT5",$( "#I3P1SLOT5" ).val());
     // Hand Player 0
-    editdata = editdata.replace("HP0SLOT1",$( "#HP0SLOT1" ).val());
-    editdata = editdata.replace("HP0SLOT2",$( "#HP0SLOT2" ).val());
-    editdata = editdata.replace("HP0SLOT3",$( "#HP0SLOT3" ).val());
-    editdata = editdata.replace("HP0SLOT4",$( "#HP0SLOT4" ).val());
-    editdata = editdata.replace("HP0SLOT5",$( "#HP0SLOT5" ).val());
-    editdata = editdata.replace("HP0SLOT6",$( "#HP0SLOT6" ).val());
-    editdata = editdata.replace("HP0SLOT7",$( "#HP0SLOT7" ).val());
-    editdata = editdata.replace("HP0SLOT8",$( "#HP0SLOT8" ).val());
-    editdata = editdata.replace("HP0SLOT9",$( "#HP0SLOT9" ).val());
-    editdata = editdata.replace("HP0SLOTX",$( "#HP0SLOTX" ).val());
+    if ($( "#HP0SLOT1" ).val()!="Empty"){editdata = editdata.replace("HP0SLOT1","\n" + $( "#HP0SLOT1" ).val());}
+    else{editdata = editdata.replace("HP0SLOT1","");}
+    if ($( "#HP0SLOT2" ).val()!="Empty"){editdata = editdata.replace("HP0SLOT2","\n" + $( "#HP0SLOT2" ).val());}
+    else{editdata = editdata.replace("HP0SLOT2","");}
+    if ($( "#HP0SLOT3" ).val()!="Empty"){editdata = editdata.replace("HP0SLOT3","\n" + $( "#HP0SLOT3" ).val());}
+    else{editdata = editdata.replace("HP0SLOT3","");}
+    if ($( "#HP0SLOT4" ).val()!="Empty"){editdata = editdata.replace("HP0SLOT4","\n" + $( "#HP0SLOT4" ).val());}
+    else{editdata = editdata.replace("HP0SLOT4","");}
+    if ($( "#HP0SLOT5" ).val()!="Empty"){editdata = editdata.replace("HP0SLOT5","\n" + $( "#HP0SLOT5" ).val());}
+    else{editdata = editdata.replace("HP0SLOT5","");}
+    if ($( "#HP0SLOT6" ).val()!="Empty"){editdata = editdata.replace("HP0SLOT6","\n" + $( "#HP0SLOT6" ).val());}
+    else{editdata = editdata.replace("HP0SLOT6","");}
+    if ($( "#HP0SLOT7" ).val()!="Empty"){editdata = editdata.replace("HP0SLOT7","\n" + $( "#HP0SLOT7" ).val());}
+    else{editdata = editdata.replace("HP0SLOT7","");}
+    if ($( "#HP0SLOT8" ).val()!="Empty"){editdata = editdata.replace("HP0SLOT8","\n" + $( "#HP0SLOT8" ).val());}
+    else{editdata = editdata.replace("HP0SLOT8","");}
+    if ($( "#HP0SLOT9" ).val()!="Empty"){editdata = editdata.replace("HP0SLOT9","\n" + $( "#HP0SLOT9" ).val());}
+    else{editdata = editdata.replace("HP0SLOT9","");}
+    if ($( "#HP0SLOTX" ).val()!="Empty"){editdata = editdata.replace("HP0SLOTX","\n" + $( "#HP0SLOTX" ).val());}
+    else{editdata = editdata.replace("HP0SLOTX","");}
     // Hand Player 1
-    editdata = editdata.replace("HP1SLOT1",$( "#HP1SLOT1" ).val());
-    editdata = editdata.replace("HP1SLOT2",$( "#HP1SLOT2" ).val());
-    editdata = editdata.replace("HP1SLOT3",$( "#HP1SLOT3" ).val());
-    editdata = editdata.replace("HP1SLOT4",$( "#HP1SLOT4" ).val());
-    editdata = editdata.replace("HP1SLOT5",$( "#HP1SLOT5" ).val());
-    editdata = editdata.replace("HP1SLOT6",$( "#HP1SLOT6" ).val());
-    editdata = editdata.replace("HP1SLOT7",$( "#HP1SLOT7" ).val());
-    editdata = editdata.replace("HP1SLOT8",$( "#HP1SLOT8" ).val());
-    editdata = editdata.replace("HP1SLOT9",$( "#HP1SLOT9" ).val());
-    editdata = editdata.replace("HP1SLOTX",$( "#HP1SLOTX" ).val());
+    if ($( "#HP1SLOT1" ).val()!="Empty"){editdata = editdata.replace("HP1SLOT1","\n" + $( "#HP1SLOT1" ).val());}
+    else{editdata = editdata.replace("HP1SLOT1","");}
+    if ($( "#HP1SLOT2" ).val()!="Empty"){editdata = editdata.replace("HP1SLOT2","\n" + $( "#HP1SLOT2" ).val());}
+    else{editdata = editdata.replace("HP1SLOT2","");}
+    if ($( "#HP1SLOT3" ).val()!="Empty"){editdata = editdata.replace("HP1SLOT3","\n" + $( "#HP1SLOT3" ).val());}
+    else{editdata = editdata.replace("HP1SLOT3","");}
+    if ($( "#HP1SLOT4" ).val()!="Empty"){editdata = editdata.replace("HP1SLOT4","\n" + $( "#HP1SLOT4" ).val());}
+    else{editdata = editdata.replace("HP1SLOT4","");}
+    if ($( "#HP1SLOT5" ).val()!="Empty"){editdata = editdata.replace("HP1SLOT5","\n" + $( "#HP1SLOT5" ).val());}
+    else{editdata = editdata.replace("HP1SLOT5","");}
+    if ($( "#HP1SLOT6" ).val()!="Empty"){editdata = editdata.replace("HP1SLOT6","\n" + $( "#HP1SLOT6" ).val());}
+    else{editdata = editdata.replace("HP1SLOT6","");}
+    if ($( "#HP1SLOT7" ).val()!="Empty"){editdata = editdata.replace("HP1SLOT7","\n" + $( "#HP1SLOT7" ).val());}
+    else{editdata = editdata.replace("HP1SLOT7","");}
+    if ($( "#HP1SLOT8" ).val()!="Empty"){editdata = editdata.replace("HP1SLOT8","\n" + $( "#HP1SLOT8" ).val());}
+    else{editdata = editdata.replace("HP1SLOT8","");}
+    if ($( "#HP1SLOT9" ).val()!="Empty"){editdata = editdata.replace("HP1SLOT9","\n" + $( "#HP1SLOT9" ).val());}
+    else{editdata = editdata.replace("HP1SLOT9","");}
+    if ($( "#HP1SLOTX" ).val()!="Empty"){editdata = editdata.replace("HP1SLOTX","\n" + $( "#HP1SLOTX" ).val());}
+    else{editdata = editdata.replace("HP1SLOTX","");}
     // Tower Player 0
     editdata = editdata.replace("T1P0",$( "#T1P0" ).val());
     editdata = editdata.replace("T2P0",$( "#T2P0" ).val());
@@ -126,12 +157,28 @@ function process(){
     $( "#edit" ).hide();
     document.getElementById("resulthere").value = editdata;
     $( "#result" ).show();
+    autosize(document.querySelectorAll('textarea'));
+    document.getElementById("resulthere").select();
+    document.execCommand('copy');
+    alert("Copied Puzzle")
 }
 function back(){
+    $( "#edit" ).show();
+    $( "#result" ).hide();
+}
+function reset(){
+    $( ".towers" ).empty();
     $( ".handcards" ).empty();
     $( ".combatcards" ).empty();
     $( ".improvcards" ).empty();
     load();
     $( "#edit" ).show();
     $( "#result" ).hide();
+}
+function save(){
+    var blob = new Blob([document.getElementById("resulthere").value], {
+        type: "text/plain;charset=utf-8"
+    });
+    var filename = puzzlename+".txt";
+    saveAs(blob, filename);
 }

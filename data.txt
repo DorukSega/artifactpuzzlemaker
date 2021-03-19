@@ -657,8 +657,11 @@ Unearthed Secrets
 Weave
 Selemene's Favor
 Courier`;
-let emptypuzzle =`Mode Rules
-[tower_health=40,ancient_health=40]
+let towers = `Defense Tower
+Ancient Tower`;
+let emptypuzzle =`#NAMEHERE
+Mode Rules
+[tower_health=40,ancient_health=40,dcg_shop_exists=SHOPEXISTS]
 
 Player 0
 [Mana=P0MANA,Gold=P0GOLD]
@@ -708,29 +711,9 @@ I3P1SLOT3
 I3P1SLOT4
 I3P1SLOT5
 
-Player 0 Hand
-HP0SLOT1
-HP0SLOT2
-HP0SLOT3
-HP0SLOT4
-HP0SLOT5
-HP0SLOT6
-HP0SLOT7
-HP0SLOT8
-HP0SLOT9
-HP0SLOTX
+Player 0 HandHP0SLOT1HP0SLOT2HP0SLOT3HP0SLOT4HP0SLOT5HP0SLOT6HP0SLOT7HP0SLOT8HP0SLOT9HP0SLOTX
 
-Player 1 Hand
-HP1SLOT1
-HP1SLOT2
-HP1SLOT3
-HP1SLOT4
-HP1SLOT5
-HP1SLOT6
-HP1SLOT7
-HP1SLOT8
-HP1SLOT9
-HP1SLOTX
+Player 1 HandHP1SLOT1HP1SLOT2HP1SLOT3HP1SLOT4HP1SLOT5HP1SLOT6HP1SLOT7HP1SLOT8HP1SLOT9HP1SLOTX
 
 Player 0 Tower 1
 T1P0
@@ -791,4 +774,4 @@ C3P1SLOT2
 C3P1SLOT3
 C3P1SLOT4
 C3P1SLOT5
-`; 
+#Puzzle generated via https://github.com/DorukSega/artifactpuzzlemaker`; 

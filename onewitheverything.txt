@@ -92,10 +92,10 @@ Player 1 Tower 3
 T3P1
 
 Player 0 Combat 1
-C1P0SLOT1
+C1P0SLOT1 [Damage=8] [PassiveCharges=6] [Charges=5] [Silenced,AbilityCooldown=0,damage=2] [abilitycooldown=0] [AbilityCooldown=0] Equip(Short Sword) 
 C1P0SLOT2
 C1P0SLOT3
-C1P0SLOT4
+C1P0SLOT4 #Comment
 C1P0SLOT5
 
 Player 0 Combat 2
@@ -110,7 +110,7 @@ C3P0SLOT1
 C3P0SLOT2
 C3P0SLOT3
 C3P0SLOT4
-C3P0SLOT5
+C3P0SLOT5 
 
 Player 1 Combat 1
 C1P1SLOT1
