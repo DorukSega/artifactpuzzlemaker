@@ -8,11 +8,11 @@ WIP Puzzle Maker for Artifact Foundry (2.0)
 ## How to Open the Puzzles Ingame
 1. Open Puzzle Maker
 
-<img src="https://i.imgur.com/h4X3Q9i.jpg">
+<img src="https://i.imgur.com/h4X3Q9i.jpg" width="981" height="552">
 
 2. Paste the copied text from puzzle editor to text area
 
-<img src="https://i.imgur.com/tXUP0kE.png">
+<img src="https://i.imgur.com/tXUP0kE.png" width="439" height="377">
 
 3. Press Play
 
