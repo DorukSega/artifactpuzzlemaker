@@ -40,37 +40,67 @@ function process(){
     editdata = editdata.replace("P1MANA",$( "#P1MANA" ).val());
     editdata = editdata.replace("P1GOLD",$( "#P1GOLD" ).val());
     //Improvements Player 0
-    editdata = editdata.replace("I1P0SLOT1",$( "#I1P0SLOT1" ).val());
-    editdata = editdata.replace("I1P0SLOT2",$( "#I1P0SLOT2" ).val());
-    editdata = editdata.replace("I1P0SLOT3",$( "#I1P0SLOT3" ).val());
-    editdata = editdata.replace("I1P0SLOT4",$( "#I1P0SLOT4" ).val());
-    editdata = editdata.replace("I1P0SLOT5",$( "#I1P0SLOT5" ).val());
-    editdata = editdata.replace("I2P0SLOT1",$( "#I2P0SLOT1" ).val());
-    editdata = editdata.replace("I2P0SLOT2",$( "#I2P0SLOT2" ).val());
-    editdata = editdata.replace("I2P0SLOT3",$( "#I2P0SLOT3" ).val());
-    editdata = editdata.replace("I2P0SLOT4",$( "#I2P0SLOT4" ).val());
-    editdata = editdata.replace("I2P0SLOT5",$( "#I2P0SLOT5" ).val());
-    editdata = editdata.replace("I3P0SLOT1",$( "#I3P0SLOT1" ).val());
-    editdata = editdata.replace("I3P0SLOT2",$( "#I3P0SLOT2" ).val());
-    editdata = editdata.replace("I3P0SLOT3",$( "#I3P0SLOT3" ).val());
-    editdata = editdata.replace("I3P0SLOT4",$( "#I3P0SLOT4" ).val());
-    editdata = editdata.replace("I3P0SLOT5",$( "#I3P0SLOT5" ).val());
+    if ($( "#I1P0SLOT1" ).val()!="Empty"){editdata = editdata.replace("I1P0SLOT1","\n" + $( "#I1P0SLOT1" ).val());}
+    else{editdata = editdata.replace("I1P0SLOT1","");}
+    if ($( "#I1P0SLOT2" ).val()!="Empty"){editdata = editdata.replace("I1P0SLOT2","\n" + $( "#I1P0SLOT2" ).val());}
+    else{editdata = editdata.replace("I1P0SLOT2","");}
+    if ($( "#I1P0SLOT3" ).val()!="Empty"){editdata = editdata.replace("I1P0SLOT3","\n" + $( "#I1P0SLOT3" ).val());}
+    else{editdata = editdata.replace("I1P0SLOT3","");}
+    if ($( "#I1P0SLOT4" ).val()!="Empty"){editdata = editdata.replace("I1P0SLOT4","\n" + $( "#I1P0SLOT4" ).val());}
+    else{editdata = editdata.replace("I1P0SLOT4","");}
+    if ($( "#I1P0SLOT5" ).val()!="Empty"){editdata = editdata.replace("I1P0SLOT5","\n" + $( "#I1P0SLOT5" ).val());}
+    else{editdata = editdata.replace("I1P0SLOT5","");}
+    if ($( "#I2P0SLOT1" ).val()!="Empty"){editdata = editdata.replace("I2P0SLOT1","\n" + $( "#I2P0SLOT1" ).val());}
+    else{editdata = editdata.replace("I2P0SLOT1","");}
+    if ($( "#I2P0SLOT2" ).val()!="Empty"){editdata = editdata.replace("I2P0SLOT2","\n" + $( "#I2P0SLOT2" ).val());}
+    else{editdata = editdata.replace("I2P0SLOT2","");}
+    if ($( "#I2P0SLOT3" ).val()!="Empty"){editdata = editdata.replace("I2P0SLOT3","\n" + $( "#I2P0SLOT3" ).val());}
+    else{editdata = editdata.replace("I2P0SLOT3","");}
+    if ($( "#I2P0SLOT4" ).val()!="Empty"){editdata = editdata.replace("I2P0SLOT4","\n" + $( "#I2P0SLOT4" ).val());}
+    else{editdata = editdata.replace("I2P0SLOT4","");}
+    if ($( "#I2P0SLOT5" ).val()!="Empty"){editdata = editdata.replace("I2P0SLOT5","\n" + $( "#I2P0SLOT5" ).val());}
+    else{editdata = editdata.replace("I2P0SLOT5","");}
+    if ($( "#I3P0SLOT1" ).val()!="Empty"){editdata = editdata.replace("I3P0SLOT1","\n" + $( "#I3P0SLOT1" ).val());}
+    else{editdata = editdata.replace("I3P0SLOT1","");}
+    if ($( "#I3P0SLOT2" ).val()!="Empty"){editdata = editdata.replace("I3P0SLOT2","\n" + $( "#I3P0SLOT2" ).val());}
+    else{editdata = editdata.replace("I3P0SLOT2","");}
+    if ($( "#I3P0SLOT3" ).val()!="Empty"){editdata = editdata.replace("I3P0SLOT3","\n" + $( "#I3P0SLOT3" ).val());}
+    else{editdata = editdata.replace("I3P0SLOT3","");}
+    if ($( "#I3P0SLOT4" ).val()!="Empty"){editdata = editdata.replace("I3P0SLOT4","\n" + $( "#I3P0SLOT4" ).val());}
+    else{editdata = editdata.replace("I3P0SLOT4","");}
+    if ($( "#I3P0SLOT5" ).val()!="Empty"){editdata = editdata.replace("I3P0SLOT5","\n" + $( "#I3P0SLOT5" ).val());}
+    else{editdata = editdata.replace("I3P0SLOT5","");}
     //Improvements Player 1
-    editdata = editdata.replace("I1P1SLOT1",$( "#I1P1SLOT1" ).val());
-    editdata = editdata.replace("I1P1SLOT2",$( "#I1P1SLOT2" ).val());
-    editdata = editdata.replace("I1P1SLOT3",$( "#I1P1SLOT3" ).val());
-    editdata = editdata.replace("I1P1SLOT4",$( "#I1P1SLOT4" ).val());
-    editdata = editdata.replace("I1P1SLOT5",$( "#I1P1SLOT5" ).val());
-    editdata = editdata.replace("I2P1SLOT1",$( "#I2P1SLOT1" ).val());
-    editdata = editdata.replace("I2P1SLOT2",$( "#I2P1SLOT2" ).val());
-    editdata = editdata.replace("I2P1SLOT3",$( "#I2P1SLOT3" ).val());
-    editdata = editdata.replace("I2P1SLOT4",$( "#I2P1SLOT4" ).val());
-    editdata = editdata.replace("I2P1SLOT5",$( "#I2P1SLOT5" ).val());
-    editdata = editdata.replace("I3P1SLOT1",$( "#I3P1SLOT1" ).val());
-    editdata = editdata.replace("I3P1SLOT2",$( "#I3P1SLOT2" ).val());
-    editdata = editdata.replace("I3P1SLOT3",$( "#I3P1SLOT3" ).val());
-    editdata = editdata.replace("I3P1SLOT4",$( "#I3P1SLOT4" ).val());
-    editdata = editdata.replace("I3P1SLOT5",$( "#I3P1SLOT5" ).val());
+    if ($( "#I1P1SLOT1" ).val()!="Empty"){editdata = editdata.replace("I1P1SLOT1","\n" + $( "#I1P1SLOT1" ).val());}
+    else{editdata = editdata.replace("I1P1SLOT1","");}
+    if ($( "#I1P1SLOT2" ).val()!="Empty"){editdata = editdata.replace("I1P1SLOT2","\n" + $( "#I1P1SLOT2" ).val());}
+    else{editdata = editdata.replace("I1P1SLOT2","");}
+    if ($( "#I1P1SLOT3" ).val()!="Empty"){editdata = editdata.replace("I1P1SLOT3","\n" + $( "#I1P1SLOT3" ).val());}
+    else{editdata = editdata.replace("I1P1SLOT3","");}
+    if ($( "#I1P1SLOT4" ).val()!="Empty"){editdata = editdata.replace("I1P1SLOT4","\n" + $( "#I1P1SLOT4" ).val());}
+    else{editdata = editdata.replace("I1P1SLOT4","");}
+    if ($( "#I1P1SLOT5" ).val()!="Empty"){editdata = editdata.replace("I1P1SLOT5","\n" + $( "#I1P1SLOT5" ).val());}
+    else{editdata = editdata.replace("I1P1SLOT5","");}
+    if ($( "#I2P1SLOT1" ).val()!="Empty"){editdata = editdata.replace("I2P1SLOT1","\n" + $( "#I2P1SLOT1" ).val());}
+    else{editdata = editdata.replace("I2P1SLOT1","");}
+    if ($( "#I2P1SLOT2" ).val()!="Empty"){editdata = editdata.replace("I2P1SLOT2","\n" + $( "#I2P1SLOT2" ).val());}
+    else{editdata = editdata.replace("I2P1SLOT2","");}
+    if ($( "#I2P1SLOT3" ).val()!="Empty"){editdata = editdata.replace("I2P1SLOT3","\n" + $( "#I2P1SLOT3" ).val());}
+    else{editdata = editdata.replace("I2P1SLOT3","");}
+    if ($( "#I2P1SLOT4" ).val()!="Empty"){editdata = editdata.replace("I2P1SLOT4","\n" + $( "#I2P1SLOT4" ).val());}
+    else{editdata = editdata.replace("I2P1SLOT4","");}
+    if ($( "#I2P1SLOT5" ).val()!="Empty"){editdata = editdata.replace("I2P1SLOT5","\n" + $( "#I2P1SLOT5" ).val());}
+    else{editdata = editdata.replace("I2P1SLOT5","");}
+    if ($( "#I3P1SLOT1" ).val()!="Empty"){editdata = editdata.replace("I3P1SLOT1","\n" + $( "#I3P1SLOT1" ).val());}
+    else{editdata = editdata.replace("I3P1SLOT1","");}
+    if ($( "#I3P1SLOT2" ).val()!="Empty"){editdata = editdata.replace("I3P1SLOT2","\n" + $( "#I3P1SLOT2" ).val());}
+    else{editdata = editdata.replace("I3P1SLOT2","");}
+    if ($( "#I3P1SLOT3" ).val()!="Empty"){editdata = editdata.replace("I3P1SLOT3","\n" + $( "#I3P1SLOT3" ).val());}
+    else{editdata = editdata.replace("I3P1SLOT3","");}
+    if ($( "#I3P1SLOT4" ).val()!="Empty"){editdata = editdata.replace("I3P1SLOT4","\n" + $( "#I3P1SLOT4" ).val());}
+    else{editdata = editdata.replace("I3P1SLOT4","");}
+    if ($( "#I3P1SLOT5" ).val()!="Empty"){editdata = editdata.replace("I3P1SLOT5","\n" + $( "#I3P1SLOT5" ).val());}
+    else{editdata = editdata.replace("I3P1SLOT5","");}
     // Hand Player 0
     if ($( "#HP0SLOT1" ).val()!="Empty"){editdata = editdata.replace("HP0SLOT1","\n" + $( "#HP0SLOT1" ).val());}
     else{editdata = editdata.replace("HP0SLOT1","");}
