@@ -197,6 +197,7 @@ function back(){
     $( "#result" ).hide();
 }
 function reset(){
+    document.getElementById("SHOPEXISTS").checked = false
     $( ".towers" ).empty();
     $( ".handcards" ).empty();
     $( ".combatcards" ).empty();
