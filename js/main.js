@@ -271,10 +271,9 @@ $(document).ready(function(){
         }
         else{
             $(this).parent().children("button").hide();
-            $('select[id^="newones"]').each(function () {
+            $("#"+$(this).attr('id')+"ITM").children('#newones').each(function () {
                 this.remove()
-            });      
-            
+            });       
         }
    })
    })
