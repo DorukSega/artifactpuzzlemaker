@@ -659,9 +659,68 @@ Selemene's Favor
 Courier`;
 let towers = `Defense Tower
 Ancient Tower`;
+let itemcards=`Empty
+Short Sword
+Force Staff
+Healing Blade
+Blade of the Vigil
+Demagicking Maul
+Demolishing Warhammer
+Hooked Net
+Mazer Beam MK-179
+Broadsword
+Orchid
+Red Mist Maul
+Blink Dagger
+Jasper Daggers
+Claymore
+Mortred's Dagger
+Sorla Khan's Spear
+Sheep Stick
+Wingfall Hammer
+Mjollnir
+Silver Edge
+Apotheosis Blade
+Radiance
+Leather Armor
+Barbed Mail
+Bracers of Sacrifice
+Midas Greaves
+Ring of Basilius
+Crown of the Undying
+Type XLII Kineto-Zap Harmor
+Artificer's Mail
+Main Gauche
+Ristul Emblem
+Noxious Talisman
+Seraphim Shield
+Helm of the Dominator
+Nullifier
+Shield of St. Crella
+Vladmir's Offering
+Vesture of the Tyrant
+Nyctasha's Guard
+Darkblight Shield
+Traveler's Cloak
+Stonehall Cloak
+Claszureme Hourglass
+Necronomicon
+Phase Boots
+Ring of Tarrasque
+Sproink Springers Mk.23
+Infernal Amulet
+Warhorn
+Gem of True Sight
+Ghost Scepter
+Hero's Cape
+Holy Locket
+Horn of the Alpha
+Spirit Vessel
+Dagon
+Refresher Orb`;
 let emptypuzzle =`#NAMEHERE
 Mode Rules
-[tower_health=40,ancient_health=40,dcg_shop_exists=SHOPEXISTS]
+[tower_health=TWRHEALTH,ancient_health=ACNTHEALTH,dcg_shop_exists=SHOPEXISTS]
 
 Player 0
 [Mana=P0MANA,Gold=P0GOLD]

@@ -1,8 +1,6 @@
-- Add card equips. Mazzie can equip unlimited and rest can equip 2. 
-- Add a way to change game rules [tower_health=40,ancient_health=40]
-- add card damage [Damage=8] and ability stuff [AbilityCooldown=0] [Charges=5] [PassiveCharges=6] also silenced
+- add card ability stuff [AbilityCooldown=0] [Charges=5] [PassiveCharges=6] also silenced
 - Visualize?
 - Add a way to add more cands to hand
-- Add a way to open existing puzzles
+- Add a way to open existing puzzles (parsing puzzles steamy)
 - Maybe make a server or place for ugc 
 - Water the plants
