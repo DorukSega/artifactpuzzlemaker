@@ -198,7 +198,7 @@ function process(){
     autosize(document.querySelectorAll('textarea'));
     document.getElementById("resulthere").select();
     document.execCommand('copy');
-    alert("Copied Puzzle")
+    //alert("Copied Puzzle")
 }
 function back(){
     $( "#edit" ).show();

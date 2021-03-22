@@ -1,9 +1,11 @@
+  .centertext{
+    text-align: center;
+  }
   .flex-container {
     display: flex;
     flex-wrap: nowrap;
     
   }
-  
   .flex-container > div {
     width: 200px;
     margin: auto;
@@ -16,12 +18,16 @@
     border: 2px solid black;
     padding: 10px;
   }
-  .centertext{
-    text-align: center;
-  }
   .cardslot{
     display: block;
     border: 1px solid black;
     margin: auto;
     padding: 0px;
+  }
+  .button{
+    padding: 14px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
   }

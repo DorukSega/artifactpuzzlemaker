@@ -21,9 +21,9 @@
             <label>Base Defense Tower Health = </label><input type="text" value="40" size="1" id="TWRHEALTH"> <label>Base Ancient Health = </label><input type="text" value="40" size="1" id="ACNTHEALTH"><br><br>
             <label>Player 0 (Opponent):</label><br><label>Mana = </label><input type="text" value="0" size="2" id="P0MANA"> <label>Gold = </label><input type="text" value="0" size="2" id="P0GOLD"><br><br>
             <label>Player 1 (You):</label><br><label>Mana = </label><input type="text" value="0" size="2" id="P1MANA"> <label>Gold = </label><input type="text" value="0" size="2" id="P1GOLD">
-            <br>
-            <button onclick="process()">Create</button>
-            <button onclick="reset()">New</button>
+            <br><br>
+            <button class="button" onclick="process()">Create</button>
+            <button class="button" onclick="reset()">New</button>
         </div>
         <br>
         <div class="flex-container">
@@ -51,7 +51,7 @@
             </div>
         </div>
             <div>
-                <br><br><label class="centertext">Player 0 Combat 1</label><br><br>
+                <br><br><h3 class="centertext"></label>Player 0 Combat 1</h3><br>
                 <div class="flex-container">
                     <div class="cardslot"><label>Card Slot 1:</label><select class= "combatcards" id="C1P0SLOT1" name="Player 0 Combat 1 Slot 1"></select><br><label>Item Equip:</label><br><div id="C1P0SLOT1ITM"><select id="itemselector" class= "itemcards"></select><br><select id="itemselector" class= "itemcards"></select></div><button  id="itemappend" onclick='additem("C1P0SLOT1ITM")' style="display: none;">Add More Items (Mazzie)</button><label>Damage = </label><input type="text" value="0" size="1" id="C1P0SLOT1DMG" class="CDMG"><br><input type="checkbox" id="silenced" name="issilenced"><label for="issilenced"> Is Silenced</label></div><br>
                     <div class="cardslot"><label>Card Slot 2:</label><select class= "combatcards" id="C1P0SLOT2" name="Player 0 Combat 1 Slot 2"></select><br><label>Item Equip:</label><br><div id="C1P0SLOT2ITM"><select id="itemselector" class= "itemcards"></select><br><select id="itemselector" class= "itemcards"></select></div><button  id="itemappend" onclick='additem("C1P0SLOT2ITM")' style="display: none;">Add More Items (Mazzie)</button><label>Damage = </label><input type="text" value="0" size="1" id="C1P0SLOT2DMG" class="CDMG"><br><input type="checkbox" id="silenced" name="issilenced"><label for="issilenced"> Is Silenced</label></div><br>
@@ -60,7 +60,7 @@
                     <div class="cardslot"><label>Card Slot 5:</label><select class= "combatcards" id="C1P0SLOT5" name="Player 0 Combat 1 Slot 5"></select><br><label>Item Equip:</label><br><div id="C1P0SLOT5ITM"><select id="itemselector" class= "itemcards"></select><br><select id="itemselector" class= "itemcards"></select></div><button  id="itemappend" onclick='additem("C1P0SLOT5ITM")' style="display: none;">Add More Items (Mazzie)</button><label>Damage = </label><input type="text" value="0" size="1" id="C1P0SLOT5DMG" class="CDMG"><br><input type="checkbox" id="silenced" name="issilenced"><label for="issilenced"> Is Silenced</label></div><br>
                     <br>
                 </div>
-                <br><br><label class="centertext">Player 0 Combat 2</label><br><br>
+                <br><br><h3 class="centertext">Player 0 Combat 2</h3><br>
                 <div class="flex-container">
                     <div class="cardslot"><label>Card Slot 1:</label><select class= "combatcards" id="C2P0SLOT1" name="Player 0 Combat 2 Slot 1"></select><br><label>Item Equip:</label><br><div id="C2P0SLOT1ITM"><select id="itemselector" class= "itemcards"></select><br><select id="itemselector" class= "itemcards"></select></div><button  id="itemappend" onclick='additem("C2P0SLOT1ITM")' style="display: none;">Add More Items (Mazzie)</button><label>Damage = </label><input type="text" value="0" size="1" id="C2P0SLOT1DMG" class="CDMG"><br><input type="checkbox" id="silenced" name="issilenced"><label for="issilenced"> Is Silenced</label></div><br>
                     <div class="cardslot"><label>Card Slot 2:</label><select class= "combatcards" id="C2P0SLOT2" name="Player 0 Combat 2 Slot 2"></select><br><label>Item Equip:</label><br><div id="C2P0SLOT2ITM"><select id="itemselector" class= "itemcards"></select><br><select id="itemselector" class= "itemcards"></select></div><button  id="itemappend" onclick='additem("C2P0SLOT2ITM")' style="display: none;">Add More Items (Mazzie)</button><label>Damage = </label><input type="text" value="0" size="1" id="C2P0SLOT2DMG" class="CDMG"><br><input type="checkbox" id="silenced" name="issilenced"><label for="issilenced"> Is Silenced</label></div><br>
@@ -69,7 +69,7 @@
                     <div class="cardslot"><label>Card Slot 5:</label><select class= "combatcards" id="C2P0SLOT5" name="Player 0 Combat 2 Slot 5"></select><br><label>Item Equip:</label><br><div id="C2P0SLOT5ITM"><select id="itemselector" class= "itemcards"></select><br><select id="itemselector" class= "itemcards"></select></div><button  id="itemappend" onclick='additem("C2P0SLOT5ITM")' style="display: none;">Add More Items (Mazzie)</button><label>Damage = </label><input type="text" value="0" size="1" id="C2P0SLOT5DMG" class="CDMG"><br><input type="checkbox" id="silenced" name="issilenced"><label for="issilenced"> Is Silenced</label></div><br>
                     <br>
                 </div>
-                <br><br><label class="centertext">Player 0 Combat 3</label><br><br>
+                <br><br><h3 class="centertext">Player 0 Combat 3</h3><br>
                 <div class="flex-container">
                     <div class="cardslot"><label>Card Slot 1:</label><select class= "combatcards" id="C3P0SLOT1" name="Player 0 Combat 3 Slot 1"></select><br><label>Item Equip:</label><br><div id="C3P0SLOT1ITM"><select id="itemselector" class= "itemcards"></select><br><select id="itemselector" class= "itemcards"></select></div><button  id="itemappend" onclick='additem("C3P0SLOT1ITM")' style="display: none;">Add More Items (Mazzie)</button><label>Damage = </label><input type="text" value="0" size="1" id="C3P0SLOT1DMG" class="CDMG"><br><input type="checkbox" id="silenced" name="issilenced"><label for="issilenced"> Is Silenced</label></div><br>
                     <div class="cardslot"><label>Card Slot 2:</label><select class= "combatcards" id="C3P0SLOT2" name="Player 0 Combat 3 Slot 2"></select><br><label>Item Equip:</label><br><div id="C3P0SLOT2ITM"><select id="itemselector" class= "itemcards"></select><br><select id="itemselector" class= "itemcards"></select></div><button  id="itemappend" onclick='additem("C3P0SLOT2ITM")' style="display: none;">Add More Items (Mazzie)</button><label>Damage = </label><input type="text" value="0" size="1" id="C3P0SLOT2DMG" class="CDMG"><br><input type="checkbox" id="silenced" name="issilenced"><label for="issilenced"> Is Silenced</label></div><br>
@@ -81,7 +81,7 @@
             </div>
             <br><br><br>
             <div>
-                <br><br><label class="centertext">Player 1 Combat 1</label><br><br>
+                <br><br><h3 class="centertext">Player 1 Combat 1</h3><br>
                 <div class="flex-container">
                     <div class="cardslot"><label>Card Slot 1:</label><select class= "combatcards" id="C1P1SLOT1" name="Player 1 Combat 1 Slot 1"></select><br><label>Item Equip:</label><br><div id="C1P1SLOT1ITM"><select id="itemselector" class= "itemcards"></select><br><select id="itemselector" class= "itemcards"></select></div><button  id="itemappend" onclick='additem("C1P1SLOT1ITM")' style="display: none;">Add More Items (Mazzie)</button><label>Damage = </label><input type="text" value="0" size="1" id="C1P1SLOT1DMG" class="CDMG"><br><input type="checkbox" id="silenced" name="issilenced"><label for="issilenced"> Is Silenced</label></div><br>
                     <div class="cardslot"><label>Card Slot 2:</label><select class= "combatcards" id="C1P1SLOT2" name="Player 1 Combat 1 Slot 2"></select><br><label>Item Equip:</label><br><div id="C1P1SLOT2ITM"><select id="itemselector" class= "itemcards"></select><br><select id="itemselector" class= "itemcards"></select></div><button  id="itemappend" onclick='additem("C1P1SLOT2ITM")' style="display: none;">Add More Items (Mazzie)</button><label>Damage = </label><input type="text" value="0" size="1" id="C1P1SLOT2DMG" class="CDMG"><br><input type="checkbox" id="silenced" name="issilenced"><label for="issilenced"> Is Silenced</label></div><br>
@@ -90,7 +90,7 @@
                     <div class="cardslot"><label>Card Slot 5:</label><select class= "combatcards" id="C1P1SLOT5" name="Player 1 Combat 1 Slot 5"></select><br><label>Item Equip:</label><br><div id="C1P1SLOT5ITM"><select id="itemselector" class= "itemcards"></select><br><select id="itemselector" class= "itemcards"></select></div><button  id="itemappend" onclick='additem("C1P1SLOT5ITM")' style="display: none;">Add More Items (Mazzie)</button><label>Damage = </label><input type="text" value="0" size="1" id="C1P1SLOT5DMG" class="CDMG"><br><input type="checkbox" id="silenced" name="issilenced"><label for="issilenced"> Is Silenced</label></div><br>
                     <br>
                 </div>
-                <br><br><label class="centertext">Player 1 Combat 2</label><br><br>
+                <br><br><h3 class="centertext">Player 1 Combat 2</h3><br>
                 <div class="flex-container">
                     <div class="cardslot"><label>Card Slot 1:</label><select class= "combatcards" id="C2P1SLOT1" name="Player 1 Combat 2 Slot 1"></select><br><label>Item Equip:</label><br><div id="C2P1SLOT1ITM"><select id="itemselector" class= "itemcards"></select><br><select id="itemselector" class= "itemcards"></select></div><button  id="itemappend" onclick='additem("C2P1SLOT1ITM")' style="display: none;">Add More Items (Mazzie)</button><label>Damage = </label><input type="text" value="0" size="1" id="C2P1SLOT1DMG" class="CDMG"><br><input type="checkbox" id="silenced" name="issilenced"><label for="issilenced"> Is Silenced</label></div><br>
                     <div class="cardslot"><label>Card Slot 2:</label><select class= "combatcards" id="C2P1SLOT2" name="Player 1 Combat 2 Slot 2"></select><br><label>Item Equip:</label><br><div id="C2P1SLOT2ITM"><select id="itemselector" class= "itemcards"></select><br><select id="itemselector" class= "itemcards"></select></div><button  id="itemappend" onclick='additem("C2P1SLOT2ITM")' style="display: none;">Add More Items (Mazzie)</button><label>Damage = </label><input type="text" value="0" size="1" id="C2P1SLOT2DMG" class="CDMG"><br><input type="checkbox" id="silenced" name="issilenced"><label for="issilenced"> Is Silenced</label></div><br>
@@ -99,7 +99,7 @@
                     <div class="cardslot"><label>Card Slot 5:</label><select class= "combatcards" id="C2P1SLOT5" name="Player 1 Combat 2 Slot 5"></select><br><label>Item Equip:</label><br><div id="C2P1SLOT5ITM"><select id="itemselector" class= "itemcards"></select><br><select id="itemselector" class= "itemcards"></select></div><button  id="itemappend" onclick='additem("C2P1SLOT5ITM")' style="display: none;">Add More Items (Mazzie)</button><label>Damage = </label><input type="text" value="0" size="1" id="C2P1SLOT5DMG" class="CDMG"><br><input type="checkbox" id="silenced" name="issilenced"><label for="issilenced"> Is Silenced</label></div><br>
                     <br>
                 </div>
-                <br><br><label class="centertext">Player 1 Combat 3</label><br><br>
+                <br><br><h3 class="centertext">Player 1 Combat 3</h3><br>
                 <div class="flex-container">
                     <div class="cardslot"><label>Card Slot 1:</label><select class= "combatcards" id="C3P1SLOT1" name="Player 1 Combat 3 Slot 1"></select><br><label>Item Equip:</label><br><div id="C3P1SLOT1ITM"><select id="itemselector" class= "itemcards"></select><br><select id="itemselector" class= "itemcards"></select></div><button  id="itemappend" onclick='additem("C3P1SLOT1ITM")' style="display: none;">Add More Items (Mazzie)</button><label>Damage = </label><input type="text" value="0" size="1" id="C3P1SLOT1DMG" class="CDMG"><br><input type="checkbox" id="silenced" name="issilenced"><label for="issilenced"> Is Silenced</label></div><br>
                     <div class="cardslot"><label>Card Slot 2:</label><select class= "combatcards" id="C3P1SLOT2" name="Player 1 Combat 3 Slot 2"></select><br><label>Item Equip:</label><br><div id="C3P1SLOT2ITM"><select id="itemselector" class= "itemcards"></select><br><select id="itemselector" class= "itemcards"></select></div><button  id="itemappend" onclick='additem("C3P1SLOT2ITM")' style="display: none;">Add More Items (Mazzie)</button><label>Damage = </label><input type="text" value="0" size="1" id="C3P1SLOT2DMG" class="CDMG"><br><input type="checkbox" id="silenced" name="issilenced"><label for="issilenced"> Is Silenced</label></div><br>
@@ -113,9 +113,9 @@
     </div>
     <div id="result" style="display: none;">
         <p><a href="https://github.com/DorukSega/artifactpuzzlemaker#how-to-open-the-puzzles-ingame">How to Open the Puzzles Ingame</a></p>
-        <button onclick="back()">Go Back</button>
-        <button onclick="reset()">New</button>
-        <button onclick="save()">Download</button>
+        <button class="button" onclick="back()">Go Back</button>
+        <button class="button" onclick="reset()">New</button>
+        <button class="button" onclick="save()">Download</button>
         <br>
         <textarea id="resulthere" rows="10" cols="150"></textarea>
     </div>
