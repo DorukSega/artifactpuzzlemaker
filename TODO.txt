@@ -1,6 +1,7 @@
 - add card ability stuff [AbilityCooldown=0] [Charges=5] [PassiveCharges=6] also silenced
 - Visualize?
 - Add a way to add more cands to hand
+- make a seed system so people can share their work
 - Add a way to open existing puzzles (parsing puzzles steamy)
 - Maybe make a server or place for ugc 
 - Water the plants
